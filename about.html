@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <!--initialize contact-->
+    <header>
+      <h2>hermela</h2>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+    <!--added contact section-->
+    <section id="contact">
+      <h2>Contact information</h2>
+      <!-- a form to contact me -->
+      <form action="#">
+        <!--text type for a form-->
+        <label for="FirstName">
+          <span>First Name :</span>
+          <input
+            type="text"
+            name="FirstName"
+            id="FirstName"
+            placeholder="Enter Your First Name"
+            required
+          />
+        </label>
+
+        <label for="LastName">
+          <span>Last Name : </span>
+          <input
+            type="text"
+            id="LastName"
+            name="LastName"
+            placeholder="Enter Your Last Name"
+          />
+        </label>
+
+        <br /><br />
+
+        <!--radio button -->
+        <label for="Gender">
+          <span>Gender :</span>
+          <input
+            type="radio"
+            value="Female"
+            name="gender"
+            id="Female"
+            \
+          />Female
+        </label>
+        <label>
+          <input type="radio" value="Male" name="gender" id="Male" />Male
+        </label>
+        <br /><br />
+
+        <!--Input type number into the form-->
+        <label for="Phone Number">
+          <span>Phone Number : </span>
+          <input
+            type="number"
+            id="Phone Number"
+            name="Phone Number"
+            placeholder="Enter Your Phone Number"
+          />
+        </label>
+        <br /><br />
+
+        <!--Input type email into the form-->
+        <lable for="Email">
+          <span>Email:</span>
+          <input
+            type="email"
+            id="Email"
+            name="Email"
+            placeholder="Enter your Email"
+            required
+          />
+        </lable>
+        <br /><br />
+
+        <!--A text area for comment-->
+        <lable for="Comment">
+          <span>Comment</span>
+          <textarea
+            type="comment"
+            name="Comemnt"
+            rows="5"
+            placeholder="Write your comment"
+            required
+          >
+          </textarea>
+          <br /><br />
+        </lable>
+
+        <!--A checkbox form-->
+        <label>
+          <span>Reason for contact</span>
+          <input type="checkbox" name="Hire" id="hire" value="Hire" />Hire
+        </label>
+        <label>
+          <input
+            type="checkbox"
+            name="Collab"
+            id="collab"
+            value="Collab"
+          />Collab
+        </label>
+        <label>
+          <input type="checkbox" name="Chat" id="chat" value="Chat" />Chat
+        </label>
+        <br /><br />
+
+        <!--Range input type form-->
+        <label>
+          <input
+            type="range"
+            name="Range Satisfaction"
+            id="range satisfaction"
+            value="Range Satisfaction"
+          />Range Satisfaction
+        </label>
+        <br /><br />
+        <button type="submit" title="submit">Submit</button>
+      </form>
+    </section>
+
+    <!--Footer-->
+    <footer>
+      <br /><br />
+      <a href="https://github.com/Hermela29-20?tab=repositories" rel="_blank"
+        >Github</a
+      >
+      <a
+        href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit"
+        rel="_blank"
+        >Linkdin</a
+      >
+    </footer>
+  </body>
+</html>
